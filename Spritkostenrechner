@@ -5,5 +5,5 @@ gas_price = float(input("Was bezahlst du für einen Liter Sprit? "))
 price_per_km = gas_usage * gas_price / 100
 total_cost = price_per_km * km
 cost_pp = total_cost / passengers
-print("Die Spritkosten betragen insgesamt", format(total_cost, '.2f'),  "und", format(cost_pp, '.2f'), "pro Person.")
+print("Die Spritkosten betragen insgesamt", format(total_cost, '.2f'),  "€ und", format(cost_pp, '.2f'), "€ pro Person.")
 input("Gute Fahrt!")
